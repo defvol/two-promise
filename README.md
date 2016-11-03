@@ -26,3 +26,13 @@ lsd(dir)
 .then(concatenated => concatenated.split('\n').length)
 .then(console.log)
 ```
+
+### Install
+
+```bash
+% npm install --save two-promise
+```
+
+```js
+const toPromise = require('two-promise')
+```
