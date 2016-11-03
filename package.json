@@ -1,0 +1,28 @@
+{
+  "name": "to-promise",
+  "version": "0.1.0",
+  "description": "Return a promise for a callback-based function",
+  "bin": {
+    "to-promise": "lib/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/*.js test/*.js",
+    "pretest": "npm run lint",
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "generator-npm-pasta"
+  ],
+  "author": "rodowi",
+  "license": "ISC",
+  "repository": "rodowi/to-promise",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {}
+}
