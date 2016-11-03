@@ -1,6 +1,6 @@
 {
   "name": "two-promise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return a promise for a callback-based function",
   "bin": {
     "two-promise": "lib/cli.js"
