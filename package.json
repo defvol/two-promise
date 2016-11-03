@@ -12,7 +12,8 @@
     "test": "tape test/*.test.js"
   },
   "keywords": [
-    "generator-npm-pasta"
+    "generator-npm-pasta",
+    "promise"
   ],
   "author": "rodowi",
   "license": "ISC",
