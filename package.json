@@ -1,9 +1,9 @@
 {
-  "name": "to-promise",
+  "name": "two-promise",
   "version": "0.1.0",
   "description": "Return a promise for a callback-based function",
   "bin": {
-    "to-promise": "lib/cli.js"
+    "two-promise": "lib/cli.js"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   ],
   "author": "rodowi",
   "license": "ISC",
-  "repository": "rodowi/to-promise",
+  "repository": "rodowi/two-promise",
   "devDependencies": {
     "eslint": "^3.8.1",
     "eslint-config-standard": "^6.2.1",

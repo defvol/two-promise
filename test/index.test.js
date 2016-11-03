@@ -10,7 +10,7 @@ const pwd = f => `${dir}/${f}`
 test('fs.readFile', function (t) {
   cat(`${__dirname}/../package.json`)
   .then(JSON.parse)
-  .then(pkg => t.equal(pkg.name, 'to-promise', 'reads package.json'))
+  .then(pkg => t.equal(pkg.name, 'two-promise', 'reads package.json'))
   .catch(t.fail)
   .then(t.end)
 })

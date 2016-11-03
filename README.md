@@ -1,4 +1,4 @@
-# to-promise
+# two-promise
 
 Return a promise for a callback-based function
 
@@ -8,7 +8,7 @@ Read a file:
 var read = toPromise(fs.readFile)
 read(`${__dirname}/../package.json`)
 .then(JSON.parse)
-.then(pkg => t.equal(pkg.name, 'to-promise'))
+.then(pkg => t.equal(pkg.name, 'two-promise'))
 ```
 
 Count lines from files in directory:
