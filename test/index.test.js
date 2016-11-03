@@ -23,7 +23,7 @@ test('count number of lines in directory', function (t) {
   .then(paths => Promise.all(paths.map(f => cat(f).catch(resolve))))
   .then(buffers => buffers.filter(b => b.length).join('').trim())
   .then(concatenated => concatenated.split('\n').length)
-  .then(lines => t.equal(lines, 69, `finds ${lines} lines`))
+  .then(lines => t.equal(lines, 70, `finds ${lines} lines`))
   .catch(t.fail)
   .then(t.end)
 })
