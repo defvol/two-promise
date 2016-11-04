@@ -4,7 +4,7 @@ Return a promise for a callback-based function
 
 ### Example
 
-Converting fs.readFile and fs.readdir
+Converting [fs.readFile](https://nodejs.org/api/fs.html#fs_fs_readfile_file_options_callback) and [fs.readdir](https://nodejs.org/api/fs.html#fs_fs_readdir_path_options_callback)
 
 Read a file:
 
