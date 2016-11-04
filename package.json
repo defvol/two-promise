@@ -2,9 +2,6 @@
   "name": "two-promise",
   "version": "0.1.2",
   "description": "Return a promise for a callback-based function",
-  "bin": {
-    "two-promise": "lib/cli.js"
-  },
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib/*.js test/*.js",
