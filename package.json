@@ -1,6 +1,6 @@
 {
   "name": "two-promise",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Return a promise for a callback-based function",
   "main": "lib/index.js",
   "scripts": {
