@@ -2,6 +2,10 @@
 
 Return a promise for a callback-based function
 
+### Example
+
+Converting fs.readFile and fs.readdir
+
 Read a file:
 
 ```js
